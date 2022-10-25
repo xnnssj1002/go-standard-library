@@ -22,3 +22,7 @@ func TestNewLRU(t *testing.T) {
 	l.Put("3", 31)
 	assert.Equal(t, 31, l.Get("3"))
 }
+
+func TestQuestion(t *testing.T) {
+	Question()
+}
